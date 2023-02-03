@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+asgiref = "==3.6.0"
+"backports.zoneinfo" = "==0.2.1"
+django = "==4.0"
+django-cors-headers = "==3.13.0"
+django-filter = "==22.1"
+djangorestframework = "==3.14.0"
+djangorestframework-simplejwt = "==5.2.2"
+pyjwt = "==2.6.0"
+pytz = "==2022.7"
+sqlparse = "==0.4.3"
+django-rest-passwordreset = "*"
+django-allauth = "0.50.0"
+dj-rest-auth="2.2.5"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
